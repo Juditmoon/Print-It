@@ -27,7 +27,7 @@ function updateBanner() {
 	document.querySelector('.banner-img').src = image;
 	document.querySelector('.tagLine').innerHTML = tagLine;
 
-	// remove old selected
+	// remove dot selected
 	document.querySelector('.dots > .dot_selected').classList.remove('dot_selected');
 
 	// add class to current dot
